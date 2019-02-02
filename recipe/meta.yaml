@@ -1,5 +1,5 @@
 {% set name = "zappy" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dd372602ff1ddb25f06eded6a0c57e0a717e7a58dc29cfffc85a06a3b02cbb67
+  sha256: 5f4802f02ee26c6b4292209ff19cb06fece0252ee2128cdc739392fe0049c3e7
 
 build:
   number: 0
